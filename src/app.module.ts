@@ -9,7 +9,7 @@ import { CarModule } from './car/car.module';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb+srv://okonpatrick:08025633547,Pato@cluster0.fsjhvrc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'),
+    MongooseModule.forRoot('mongodb+srv://okonpatrick:<yourdbpassword>@cluster0.fsjhvrc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'),
     UserModule,
     CarModule,
   ],
